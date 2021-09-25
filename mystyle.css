@@ -29,3 +29,9 @@ body {
     padding: 20px 0;
     line-height: 1.5;
 }
+.intro p a {
+    text-decoration: none;
+}
+.intro p a:hover {
+    text-decoration: underline;
+}
