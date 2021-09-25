@@ -7,9 +7,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .container {
     margin: 30px;
 }
+
 .profile-image {
     text-align: center;
 }
@@ -34,4 +36,28 @@ body {
 }
 .intro p a:hover {
     text-decoration: underline;
+}
+
+/* Footer */
+.social-media-footer{
+    background-color: #ccc;
+    padding: 4rem;
+}
+.social-media-footer nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media-footer nav ul li{
+    list-style:none;
+    display: flex;
+    margin: 0 1rem;
+}
+.copyright-mark{
+    text-align: center;
+    padding: 1rem 0;
+}
+.fab {
+    font-size: 2rem;
+    color: #555;
 }
