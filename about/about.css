@@ -1,0 +1,36 @@
+/* about.html */
+.container {
+    margin: 3.5rem;
+}
+
+.profile-image {
+    text-align: center;
+}
+
+.profile-image img {
+    max-height: 300px;
+    height: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: larger;
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.intro p a {
+    text-decoration: none;
+}
+
+.intro p a:hover {
+    text-decoration: underline;
+}
